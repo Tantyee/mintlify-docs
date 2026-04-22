@@ -1,0 +1,67 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Asia-ISAC Documentation",
+  "colors": {
+    "primary": "#CC0000",
+    "light": "#eb2d17",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon.ico",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "guide/introduction"
+            ]
+          },
+          {
+            "group": "Use Cases",
+            "pages": [
+              "guide/compromise-detection",
+              "guide/inbound-enrichment",
+              "guide/pivoting-analysis"
+            ]
+          },
+          {
+            "group": "Quick Start",
+            "pages": [
+              "guide/account-limits",
+              "guide/research",
+              "guide/chat"
+            ]
+          },
+          {
+            "group": "Our CTI Data",
+            "pages": [
+              "guide/overview",
+              "guide/differentiator"
+            ]
+          },
+          {
+            "group": "Knowledge Hub",
+            "pages": [
+              "guide/threat-labels"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/logo_light.png",
+    "dark": "/logo/logo_dark.png",
+    "href": "https://ct1.asia-isac.org/research/"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Go to Asia-ISAC",
+      "href": "https://ct1.asia-isac.org/research"
+    }
+  }
+}
