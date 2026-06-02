@@ -2,6 +2,12 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Asia-ISAC Documentation",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/guide/introduction"
+    }
+  ],
   "colors": {
     "primary": "#CC0000",
     "light": "#eb2d17",
